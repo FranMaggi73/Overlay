@@ -11,11 +11,7 @@
    ```
 3. Compilar:
    ```bash
-   go build -o overlay.exe main.go
-   ```
-4. Ejecutar:
-   ```bash
-   ./overlay.exe
+   go main.go
    ```
 
 ### Frontend (SvelteKit)
@@ -32,3 +28,15 @@
 4. Construir para producción:
    ```bash
    npm run build
+
+### Overlay (Electron)
+1. Instalar Node.js: https://nodejs.org/
+2. Instalar dependencias:
+   ```bash
+   cd overlayApp
+   npm install
+   ```
+3. Construir para producción:
+   ```bash
+   npm start
+   ```
