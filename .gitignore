@@ -1,0 +1,88 @@
+# ======================================
+# Go (Backend)
+# ======================================
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build outputs
+bin/
+build/
+dist/
+coverage.out
+
+# Dependency directories (if vendoring)
+vendor/
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.old
+
+# Environment files
+.env
+.env.local
+.env.*
+!.env.example
+
+
+# ======================================
+# SvelteKit / Frontend (Vite)
+# ======================================
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+/build/
+dist/
+.svelte-kit/
+.vercel/
+.netlify/
+.output/
+
+# Local config
+*.local
+.DS_Store
+*.svelte-kit
+vite.config.local.*
+
+# Lockfiles (if not versioned)
+# Uncomment one if you don't commit lockfiles
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ======================================
+# OS-specific
+# ======================================
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ======================================
+# Misc
+# ======================================
+*.orig
+*.rej
+*.patch
+frontend/static/gifs/
